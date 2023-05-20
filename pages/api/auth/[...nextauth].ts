@@ -15,6 +15,6 @@ const options = {
     }),
   ],
   adapter: PrismaAdapter(prisma),
-  secret: process.env.GITHUB_SECRET,
-  //secret: process.env.SECRET,
+  //secret: process.env.GITHUB_SECRET,
+  secret: process.env.SECRET,
 };
